@@ -29,3 +29,17 @@ become one of the most popular Python web application frameworks.
 # To install the project
 * $ create MANIFEST.in
 * $ pip install -e .
+
+# Test coverage
+Flask provides a test client that simulates requests to the 
+application and returns the response data.
+
+* $ pip install pytest coverage
+
+# To run pytest
+* $ pytest
+
+# To see test coverage
+* $ coverage run -m pytest
+* $ coverage report
+* $ coverage html
